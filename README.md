@@ -1,13 +1,24 @@
 # SQL-customer_analysis
 
-## Introduction 
-
-The **dataset used** in this project are available for access [here](/database).
-
-## Objective 
+##  📖 Introduction 
 
 
-## Preliminary preparation 
+This project explores customer behavior and revenue patterns using SQL-based cohort analysis. The dataset used in this project can be
+accessed [here](/database).
+
+## Objectives
+
+🎯 Objectives
+
+- Perform cohort-based revenue analysis.
+- Segment customers by lifetime value (LTV).
+- Measure customer churn vs. retention trends.
+- Generate actionable insights for customer growth and retention strategies.
+
+
+⚙️ Data Preparation
+
+We begin by creating a cohort analysis view to track revenue, orders, and customer cohorts.
 
 ```sql
 CREATE VIEW cohort_analysis
@@ -36,7 +47,7 @@ AS WITH customer_revenue AS (
     EXTRACT(year FROM min(orderdate) OVER (PARTITION BY customerkey)) AS cohort_year
    FROM customer_revenue cr;
 ```
-## Project 1 
+📊 Project 1: Cohort Revenue Analysis
 
 ```sql
 SELECT
@@ -64,9 +75,7 @@ GROUP BY
 ⚠️ 2023–2024 cohorts show the weakest performance, combining fewer customers with the lowest revenue per customer, indicating a concerning downward trend.
 
 
-## Project 2
-
-
+📊 Project 2: Customer Lifetime Value (LTV) Segmentation
 
 ```sql
 WITH customer_ltv AS (
@@ -120,7 +129,8 @@ GROUP BY
 📊 Mid-Value customers (24,743 customers) contribute a significant $66M+ total LTV, averaging ~$2.7K per customer, making them an important segment for scalable growth.
 
 ⚠️ Low-Value customers (12,372 customers) drive only $4.3M total LTV, with an average LTV of just ~$351, meaning they add volume but limited financial impact.
-## Project 3 
+
+📊 Project 3: Churn & Retention Analysis
 
 
 
@@ -198,13 +208,32 @@ Here are 3 main takeaways from the 2015–2023 cohort data:
 
 ✅ Recent cohorts (2022–2023) show a slight improvement in retention (10% active), but the gain is minimal.
 
-## How to Use  
+##  🚀 How to Use  
 
-1. **Install dependencies**: pandas, matplotlib, numpy.
-2. **Load datasets**: use pd.read_csv() and adjust the file path/directory as needed.
+Clone the repo and install dependencies.
+Load the provided datasets into your SQL environment.
+Run the SQL scripts for cohort, LTV, and churn analysis.
 
 
-## Author  
+##  👤 Author  
 Created by **Arsen Pankiv**  
 - [LinkedIn](https://www.linkedin.com/in/arsen-pankiv-6082b4349/)  
 - [GitHub](https://github.com/Arsen-Pankiv)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
