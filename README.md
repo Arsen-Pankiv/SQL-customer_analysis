@@ -6,17 +6,27 @@
 This project explores customer behavior and revenue patterns using SQL-based cohort analysis. The dataset used in this project can be
 accessed [here](/database).
 
-## Objectives
 
-🎯 Objectives
+
+## 🎯 Objectives
 
 - Perform cohort-based revenue analysis.
 - Segment customers by lifetime value (LTV).
 - Measure customer churn vs. retention trends.
 - Generate actionable insights for customer growth and retention strategies.
 
+## 📂 Project Structure  
+- `/database` → raw datasets used for analysis  
+- `/screenshots` → visual outputs (charts, graphs)  
+- `README.md` → project documentation  
 
-⚙️ Data Preparation
+## 🛠️ Tools & Technologies  
+- SQL (PostgreSQL / MySQL) for queries and transformations  
+- Window functions for cohort analysis  
+- Aggregations for revenue and LTV metrics  
+- Data visualization
+
+## ⚙️ Data Preparation
 
 We begin by creating a cohort analysis view to track revenue, orders, and customer cohorts.
 
@@ -47,7 +57,7 @@ AS WITH customer_revenue AS (
     EXTRACT(year FROM min(orderdate) OVER (PARTITION BY customerkey)) AS cohort_year
    FROM customer_revenue cr;
 ```
-📊 Project 1: Cohort Revenue Analysis
+## 📊 Project 1: Cohort Revenue Analysis
 
 ```sql
 SELECT
@@ -75,7 +85,7 @@ GROUP BY
 ⚠️ 2023–2024 cohorts show the weakest performance, combining fewer customers with the lowest revenue per customer, indicating a concerning downward trend.
 
 
-📊 Project 2: Customer Lifetime Value (LTV) Segmentation
+## 📊 Project 2: Customer Lifetime Value (LTV) Segmentation
 
 ```sql
 WITH customer_ltv AS (
@@ -130,7 +140,7 @@ GROUP BY
 
 ⚠️ Low-Value customers (12,372 customers) drive only $4.3M total LTV, with an average LTV of just ~$351, meaning they add volume but limited financial impact.
 
-📊 Project 3: Churn & Retention Analysis
+## 📊 Project 3: Churn & Retention Analysis
 
 
 
@@ -207,6 +217,20 @@ Here are 3 main takeaways from the 2015–2023 cohort data:
 📊 Even as customer acquisition grew significantly (from ~2.8K in 2015 to ~9K in 2022), the active share stayed flat at only 8–10%.
 
 ✅ Recent cohorts (2022–2023) show a slight improvement in retention (10% active), but the gain is minimal.
+
+
+
+## 💡 Business Recommendations  
+
+- **Prioritize customer retention over acquisition**: With churn rates consistently around 90%, simply adding new customers won’t drive sustainable growth. Retention programs (e.g., loyalty rewards, personalized offers, proactive engagement) are critical.  
+
+- **Protect and grow High-Value customers**: This small segment (~12K customers) contributes over $135M in revenue. Dedicated account management, VIP programs, and exclusive benefits should focus on keeping this group engaged.  
+
+- **Nurture Mid-Value customers into High-Value**: Mid-tier customers generate ~$66M in total LTV. By improving onboarding, upselling, and cross-selling, many could transition into higher-value segments.  
+
+- **Reevaluate customer acquisition quality**: 2018–2022 saw customer growth, but at lower average revenue per customer. Acquisition strategies should focus less on volume and more on high-potential, long-term customers.  
+
+- **Address declining revenue per customer in recent cohorts**: From ~$5.4K in 2016–2017 to ~$2K in 2024, average customer value is falling sharply. A pricing review, product bundling, or targeted engagement campaigns may help reverse this decline. 
 
 ##  🚀 How to Use  
 
