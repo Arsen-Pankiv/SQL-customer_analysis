@@ -74,14 +74,14 @@ GROUP BY
   <img src="screenshots/project_1.png" alt="image_10" width="800" height="450" />
 </div>
 
+### 📊 Cohort Revenue Trends & Key Insights (2015–2024
 
-📈 2015–2019 cohorts show strong performance, with customer revenue above $4.7K–$5.4K per customer.
+- 📈 2015–2019 cohorts show strong performance, with customer revenue above $4.7K–$5.4K per customer.
+- 📉 Starting in 2020, average customer revenue drops sharply — from ~$3.9K in 2020–2021 down to just ~$2K in 2024.
 
-📉 Starting in 2020, average customer revenue drops sharply — from ~$3.9K in 2020–2021 down to just ~$2K in 2024.
+- 📊 While total customers grew significantly in 2018 (7.4K) and 2022 (9K), the average customer revenue declined, suggesting growth came from lower-value customers.
 
-📊 While total customers grew significantly in 2018 (7.4K) and 2022 (9K), the average customer revenue declined, suggesting growth came from lower-value customers.
-
-⚠️ 2023–2024 cohorts show the weakest performance, combining fewer customers with the lowest revenue per customer, indicating a concerning downward trend.
+- ⚠️ 2023–2024 cohorts show the weakest performance, combining fewer customers with the lowest revenue per customer, indicating a concerning downward trend.
 
 
 ## 📊 Project 2: Customer Lifetime Value (LTV) Segmentation
@@ -132,12 +132,12 @@ GROUP BY
   <img src="screenshots/project_2.png" alt="image_10" width="800" height="200" />
 </div>
 
+### 💰 Customer Lifetime Value (LTV) Segmentation Insights
+- 💎 High-Value customers (12,372 customers) generate the largest total LTV at $135M+, with an average LTV of ~$10.9K — they are the most critical to long-term revenue.
 
-💎 High-Value customers (12,372 customers) generate the largest total LTV at $135M+, with an average LTV of ~$10.9K — they are the most critical to long-term revenue.
+- 📊 Mid-Value customers (24,743 customers) contribute a significant $66M+ total LTV, averaging ~$2.7K per customer, making them an important segment for scalable growth.
 
-📊 Mid-Value customers (24,743 customers) contribute a significant $66M+ total LTV, averaging ~$2.7K per customer, making them an important segment for scalable growth.
-
-⚠️ Low-Value customers (12,372 customers) drive only $4.3M total LTV, with an average LTV of just ~$351, meaning they add volume but limited financial impact.
+- ⚠️ Low-Value customers (12,372 customers) drive only $4.3M total LTV, with an average LTV of just ~$351, meaning they add volume but limited financial impact.
 
 ## 📊 Project 3: Churn & Retention Analysis
 
@@ -191,16 +191,16 @@ GROUP BY
 
 
 
-Here are the main takeaways from the 2015–2024 customer status chart:
 
-🚨 Across all years, 91% of customers churned, leaving only 9% active.
+### ⚠️ Customer Churn & Retention Challenges (2015–2024)
 
-📉 This consistent pattern highlights very weak long-term retention.
+- 🚨 Across all years, 91% of customers churned, leaving only 9% active.
 
-💰 The imbalance poses a serious threat to sustainable revenue growth.
+- 📉 This consistent pattern highlights very weak long-term retention.
 
+- 💰 The imbalance poses a serious threat to sustainable revenue growth.
 
-💡 Strong retention and reactivation strategies are needed to reverse the trend.
+- 💡 Strong retention and reactivation strategies are needed to reverse the trend.
 
 
 
@@ -209,13 +209,13 @@ Here are the main takeaways from the 2015–2024 customer status chart:
 </div>
 
 
-Here are 3 main takeaways from the 2015–2023 cohort data:
+### 📉 Cohort-Based Retention Insights (2015–2023)
 
-🚨 Churn is consistently very high — about 90–92% of customers leave across all cohorts.
+- 🚨 Churn is consistently very high — about 90–92% of customers leave across all cohorts.
 
-📊 Even as customer acquisition grew significantly (from ~2.8K in 2015 to ~9K in 2022), the active share stayed flat at only 8–10%.
+- 📊 Even as customer acquisition grew significantly (from ~2.8K in 2015 to ~9K in 2022), the active share stayed flat at only 8–10%.
 
-✅ Recent cohorts (2022–2023) show a slight improvement in retention (10% active), but the gain is minimal.
+- ✅ Recent cohorts (2022–2023) show a slight improvement in retention (10% active), but the gain is minimal.
 
 
 
