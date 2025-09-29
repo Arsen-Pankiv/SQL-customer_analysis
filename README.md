@@ -111,7 +111,7 @@ GROUP BY
 ```
 
 <div align="center">
-  <img src="screenshots/project_2.png" alt="image_10" width="800" height="120" />
+  <img src="screenshots/project_2.png" alt="image_10" width="800" height="200" />
 </div>
 
 
@@ -167,7 +167,7 @@ GROUP BY
 ```
 
 <div align="center">
-  <img src="screenshots/project_3_2.png" alt="image_10" width="800" height="120" />
+  <img src="screenshots/project_3_2.png" alt="image_10" width="800" height="200" />
 </div>
 
 
