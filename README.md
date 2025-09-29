@@ -1,4 +1,3 @@
-# SQL-customer_analysis
 
 ##  📖 Introduction 
 
@@ -234,9 +233,9 @@ Here are 3 main takeaways from the 2015–2023 cohort data:
 
 ##  🚀 How to Use  
 
-Clone the repo and install dependencies.
-Load the provided datasets into your SQL environment.
-Run the SQL scripts for cohort, LTV, and churn analysis.
+- Clone the repo and install dependencies.
+- Load the provided datasets into your SQL environment.
+- Run the SQL scripts for cohort, LTV, and churn analysis.
 
 
 ##  👤 Author  
