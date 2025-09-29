@@ -74,7 +74,7 @@ GROUP BY
   <img src="screenshots/project_1.png" alt="image_10" width="800" height="450" />
 </div>
 
-### 📊 Cohort Revenue Trends & Key Insights (2015–2024
+### 📊 Cohort Revenue Trends & Key Insights (2015–2024)
 
 - 📈 2015–2019 cohorts show strong performance, with customer revenue above $4.7K–$5.4K per customer.
 - 📉 Starting in 2020, average customer revenue drops sharply — from ~$3.9K in 2020–2021 down to just ~$2K in 2024.
